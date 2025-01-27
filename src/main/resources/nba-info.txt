@@ -1,0 +1,35 @@
+Use the following meanings for the acronyms in the vector_store collection:
+TEAM: Team
+W: Wins
+L: Losses
+WIN%: Win Percentage
+GB: Games Behind
+CONF: Conference Standing
+DIV: Division Standing
+HOME: Home Games Record
+ROAD: Road Games Record
+Neutral: Neutral Site Games Record
+OT: Overtime Games
+LAST10: Last 10 Games Record
+STREAK: Current Winning or Losing Streak
+GP: Games Played
+MIN: Minutes Played
+PTS: Points
+FGM: Field Goals Made
+FGA: Field Goals Attempted
+FG%: Field Goal Percentage
+3PM: Three-Point Field Goals Made
+3PA: Three-Point Field Goals Attempted
+3P%: Three-Point Field Goal Percentage
+FTM: Free Throws Made
+FTA: Free Throws Attempted
+FT%: Free Throw Percentage
+OREB: Offensive Rebounds
+DREB: Defensive Rebounds
+REB: Total Rebounds
+AST: Assists
+STL: Steals
+BLK: Blocks
+TOV: Turnovers
+EFG%: Effective Field Goal Percentage
+TS%: True Shooting Percentage
