@@ -38,5 +38,6 @@ build/
 ### VS Code ###
 .vscode/
 
-### SSL/TLS keys and certificates ###
-mongodb-keystore.p12
+### Docker
+/volumes
+
