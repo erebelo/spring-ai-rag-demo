@@ -15,6 +15,7 @@ import org.springframework.ai.chat.prompt.PromptTemplate;
 import org.springframework.ai.chat.prompt.SystemPromptTemplate;
 import org.springframework.ai.document.Document;
 import org.springframework.ai.vectorstore.SearchRequest;
+import org.springframework.ai.vectorstore.SimpleVectorStore;
 import org.springframework.ai.vectorstore.VectorStore;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.Resource;
@@ -25,6 +26,7 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor
 public class NBAServiceImpl implements NBAService {
 
+    private final SimpleVectorStore simpleVectorStore;
     private final VectorStore vectorStore;
     private final ChatModel chatModel;
 
@@ -39,8 +41,7 @@ public class NBAServiceImpl implements NBAService {
         PromptTemplate systemPromptTemplate = new SystemPromptTemplate(nbaSystemMessageTemplate);
         Message systemPromptMessage = systemPromptTemplate.createMessage();
 
-        List<Document> documents = vectorStore
-                .similaritySearch(SearchRequest.builder().query(question.question()).topK(5).build());
+        List<Document> documents = getDocuments(question.question());
         List<String> documentContents = documents.stream().map(Document::getText).toList();
 
         PromptTemplate promptTemplate = new PromptTemplate(ragPromptTemplate);
@@ -49,5 +50,12 @@ public class NBAServiceImpl implements NBAService {
 
         ChatResponse chatResponse = chatModel.call(new Prompt(List.of(systemPromptMessage, userMessage)));
         return new Answer(chatResponse.getResult().getOutput().getContent());
+    }
+
+    private List<Document> getDocuments(String question) {
+        if (simpleVectorStore != null) {
+            return simpleVectorStore.similaritySearch(SearchRequest.builder().query(question).topK(5).build());
+        }
+        return vectorStore.similaritySearch(SearchRequest.builder().query(question).topK(5).build());
     }
 }

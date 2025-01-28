@@ -8,9 +8,11 @@ import org.springframework.core.io.Resource;
 
 @Data
 @Configuration
-@ConfigurationProperties(prefix = "rag.vectorstore.milvus")
-public class VectorStoreProperties {
+@ConfigurationProperties(prefix = "rag.vectorstore")
+public class VectorStorePropertiesConfig {
 
-    private List<Resource> documentsToLoad;
+    private String path;
+    private boolean rebuild;
+    private List<Resource> resources;
 
 }

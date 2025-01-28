@@ -1,0 +1,232 @@
+{
+	"info": {
+		"_postman_id": "9f84e106-2855-4f0a-9290-b4819bd2b64b",
+		"name": "Spring AI RAG Demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16363964"
+	},
+	"item": [
+		{
+			"name": "NBA Standings",
+			"item": [
+				{
+					"name": "Ask 1",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"question\": \"Which team won the 2023/24 NBA Eastern Regular Season?\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/spring-ai-rag-demo/nba/standings/ask",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"spring-ai-rag-demo",
+								"nba",
+								"standings",
+								"ask"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ask 2",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"question\": \"Which teams won the 2022/23 NBA Regular Season?\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/spring-ai-rag-demo/nba/standings/ask",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"spring-ai-rag-demo",
+								"nba",
+								"standings",
+								"ask"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ask 3",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"question\": \"List all the statistics of the Boston Celtics in the 2024 NBA Season.\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/spring-ai-rag-demo/nba/standings/ask",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"spring-ai-rag-demo",
+								"nba",
+								"standings",
+								"ask"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ask 4",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"question\": \"Who's the 2023/24 NBA MVP?\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/spring-ai-rag-demo/nba/standings/ask",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"spring-ai-rag-demo",
+								"nba",
+								"standings",
+								"ask"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ask 5",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"question\": \"Who's the 2023/24 NBA Finals MVP?\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/spring-ai-rag-demo/nba/standings/ask",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"spring-ai-rag-demo",
+								"nba",
+								"standings",
+								"ask"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ask 6",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"question\": \"Which team won the 2023/24 NBA Finals?\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/spring-ai-rag-demo/nba/standings/ask",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"spring-ai-rag-demo",
+								"nba",
+								"standings",
+								"ask"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ask 7",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"question\": \"List all the teams that the 2023/24 NBA Finals champion defeated during the playoffs\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/spring-ai-rag-demo/nba/standings/ask",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"spring-ai-rag-demo",
+								"nba",
+								"standings",
+								"ask"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

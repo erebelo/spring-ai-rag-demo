@@ -40,3 +40,6 @@ build/
 
 ### Docker
 /volumes
+
+### Vector Store
+data/

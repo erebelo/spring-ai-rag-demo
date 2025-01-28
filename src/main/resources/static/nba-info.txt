@@ -1,0 +1,8 @@
+Use the following meanings for the acronyms in the vector_store collection:
+W: Wins – The number of games a team has won.
+L: Losses – The number of games a team has lost.
+W/L%: Win/Loss Percentage – A team’s winning percentage.
+GB: Games Behind – The number of games a team is behind the leading team in their division or league.
+PS/G: Points Scored Per Game – The average number of points a team scores per game.
+PA/G: Points Allowed Per Game – The average number of points a team allows opponents to score per game.
+SRS: Simple Rating System – A metric that combines point differential and strength of schedule to rank teams; higher values indicate better performance.

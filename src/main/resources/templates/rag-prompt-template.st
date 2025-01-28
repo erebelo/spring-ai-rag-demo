@@ -7,3 +7,10 @@ QUESTION:
 
 DOCUMENTS:
 {documents}
+
+FORMAT:
+Provide only the answer to the QUESTION, nothing more.
+Do not provide explanations, additional context, or any extra information.
+Do not include markdown code blocks in your response.
+Remove any formatting like JSON syntax or brackets.
+Just return the exact response related to the question asked, without any preamble or postscript.

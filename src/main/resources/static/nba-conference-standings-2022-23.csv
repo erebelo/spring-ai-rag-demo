@@ -1,0 +1,43 @@
+2022-23 NBA Season Summary
+
+Category,Winner,Stat
+League Champion,Denver Nuggets,
+Most Valuable Player,Joel Embiid,33.1/10.2/4.2
+Rookie of the Year,Paolo Banchero,20.0/6.9/3.7
+PPG Leader,Joel Embiid,33.1
+RPG Leader,Domantas Sabonis,12.3
+APG Leader,James Harden,10.7
+WS Leader,Nikola Jokić,14.9
+
+Conference,Team,W,L,W/L%,GB,PS/G,PA/G,SRS
+Eastern,Milwaukee Bucks*,58,24,.707,—,116.9,113.3,3.61
+Eastern,Boston Celtics*,57,25,.695,1.0,117.9,111.4,6.38
+Eastern,Philadelphia 76ers*,54,28,.659,4.0,115.2,110.9,4.37
+Eastern,Cleveland Cavaliers*,51,31,.622,7.0,112.3,106.9,5.23
+Eastern,New York Knicks*,47,35,.573,11.0,116.0,113.1,2.99
+Eastern,Brooklyn Nets*,45,37,.549,13.0,113.4,112.5,1.03
+Eastern,Miami Heat*,44,38,.537,14.0,109.5,109.8,-0.13
+Eastern,Atlanta Hawks*,41,41,.500,17.0,118.4,118.1,0.32
+Eastern,Toronto Raptors,41,41,.500,17.0,112.9,111.4,1.59
+Eastern,Chicago Bulls,40,42,.488,18.0,113.1,111.8,1.37
+Eastern,Indiana Pacers,35,47,.427,23.0,116.3,119.5,-2.91
+Eastern,Washington Wizards,35,47,.427,23.0,113.2,114.4,-1.06
+Eastern,Orlando Magic,34,48,.415,24.0,111.4,114.0,-2.39
+Eastern,Charlotte Hornets,27,55,.329,31.0,111.0,117.2,-5.89
+Eastern,Detroit Pistons,17,65,.207,41.0,110.3,118.5,-7.73
+Conference,Team,W,L,W/L%,GB,PS/G,PA/G,SRS
+Western,Denver Nuggets*,53,29,.646,—,115.8,112.5,3.04
+Western,Memphis Grizzlies*,51,31,.622,2.0,116.9,113.0,3.60
+Western,Sacramento Kings*,48,34,.585,5.0,120.7,118.1,2.30
+Western,Phoenix Suns*,45,37,.549,8.0,113.6,111.6,2.08
+Western,Los Angeles Clippers*,44,38,.537,9.0,113.6,113.1,0.31
+Western,Golden State Warriors*,44,38,.537,9.0,118.9,117.1,1.66
+Western,Los Angeles Lakers*,43,39,.524,10.0,117.2,116.6,0.43
+Western,Minnesota Timberwolves*,42,40,.512,11.0,115.8,115.8,-0.22
+Western,New Orleans Pelicans,42,40,.512,11.0,114.4,112.5,1.63
+Western,Oklahoma City Thunder,40,42,.488,13.0,117.5,116.4,0.96
+Western,Dallas Mavericks,38,44,.463,15.0,114.2,114.1,-0.14
+Western,Utah Jazz,37,45,.451,16.0,117.1,118.0,-1.03
+Western,Portland Trail Blazers,33,49,.402,20.0,113.4,117.4,-3.96
+Western,Houston Rockets,22,60,.268,31.0,110.7,118.6,-7.62
+Western,San Antonio Spurs,22,60,.268,31.0,113.0,123.1,-9.82
