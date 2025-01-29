@@ -22,14 +22,14 @@ public class VectorStoreLocalConfig {
 
     @Bean
     public SimpleVectorStore simpleVectorStore(EmbeddingModel embeddingModel,
-            VectorStorePropertiesConfig vectorStoreProperties) {
-        File vectorStoreFile = new File(vectorStoreProperties.getPath());
+            VectorStoreLocalProperties vectorStoreLocalProperties) {
+        File vectorStoreFile = new File(vectorStoreLocalProperties.getPath());
         SimpleVectorStore vectorStore = SimpleVectorStore.builder(embeddingModel).build();
 
         createDirectoryIfNotExists(vectorStoreFile.getParentFile());
 
-        if (!vectorStoreFile.exists() || vectorStoreProperties.isRebuild()) {
-            return buildVectorStore(vectorStoreProperties.getResources(), vectorStoreFile, vectorStore);
+        if (!vectorStoreFile.exists() || vectorStoreLocalProperties.isRebuild()) {
+            return buildVectorStore(vectorStoreLocalProperties.getResources(), vectorStoreFile, vectorStore);
         }
 
         log.info("Loading existing vector store from file: {}", vectorStoreFile.getName());

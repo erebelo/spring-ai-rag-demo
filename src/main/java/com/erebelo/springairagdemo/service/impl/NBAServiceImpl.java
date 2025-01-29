@@ -19,6 +19,7 @@ import org.springframework.ai.vectorstore.SimpleVectorStore;
 import org.springframework.ai.vectorstore.VectorStore;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.Resource;
+import org.springframework.lang.Nullable;
 import org.springframework.stereotype.Service;
 
 @Slf4j
@@ -26,8 +27,12 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor
 public class NBAServiceImpl implements NBAService {
 
+    @Nullable
     private final SimpleVectorStore simpleVectorStore;
+
+    @Nullable
     private final VectorStore vectorStore;
+
     private final ChatModel chatModel;
 
     @Value("classpath:/templates/nba-system-message.st")

@@ -1,6 +1,6 @@
 package com.erebelo.springairagdemo.bootstrap;
 
-import com.erebelo.springairagdemo.config.VectorStorePropertiesConfig;
+import com.erebelo.springairagdemo.config.VectorStoreProperties;
 import java.util.List;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -19,7 +19,7 @@ import org.springframework.stereotype.Component;
 public class LoadVectorStore implements CommandLineRunner {
 
     private final VectorStore vectorStore;
-    private final VectorStorePropertiesConfig vectorStoreProperties;
+    private final VectorStoreProperties vectorStoreProperties;
 
     @Override
     public void run(String... args) {
