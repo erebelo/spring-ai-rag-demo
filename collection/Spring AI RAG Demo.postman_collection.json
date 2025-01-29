@@ -78,7 +78,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"question\": \"List all the statistics of the Boston Celtics in the 2024 NBA Season.\"\r\n}",
+							"raw": "{\r\n    \"question\": \"List all the statistics of the Boston Celtics in the 2023-24 NBA Season Summary\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -202,7 +202,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"question\": \"List all the teams that the 2023/24 NBA Finals champion defeated during the playoffs\"\r\n}",
+							"raw": "{\r\n    \"question\": \"List every team the Boston Celtics have defeated in the 2024 playoffs and the outcome of each game in a best-of-7 format\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
