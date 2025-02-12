@@ -7,6 +7,32 @@
 	},
 	"item": [
 		{
+			"name": "Health Check",
+			"item": [
+				{
+					"name": "GET Actuator Health",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/spring-ai-rag-demo/actuator/health",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"spring-ai-rag-demo",
+								"actuator",
+								"health"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
 			"name": "NBA Standings",
 			"item": [
 				{
