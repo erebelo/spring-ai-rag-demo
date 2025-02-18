@@ -24,8 +24,8 @@ public class NBAController {
 
     private final NBAService service;
 
-    @PostMapping(path = NBA_STANDINGS_ASK_PATH, consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseStatus(HttpStatus.OK)
+    @PostMapping(path = NBA_STANDINGS_ASK_PATH, consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
     public Answer askQuestions(@RequestBody Question question) {
         log.info("GET {}", NBA_PATH + NBA_STANDINGS_ASK_PATH);
         return service.getAnswer(question);
